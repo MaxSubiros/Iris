@@ -1,0 +1,130 @@
+/* Colors de fons i text */
+QWidget {
+    background-color: #2E2E2E;
+    color: #F5F5F5;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 12pt;
+}
+
+QLabel {
+    font-weight: bold;
+    color: #F5F5F5;
+}
+
+QLineEdit {
+    background-color: #424242;
+    border: 1px solid #616161;
+    color: #F5F5F5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+QPushButton {
+    background-color: #616161;
+    color: #F5F5F5;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 10pt;
+}
+
+QPushButton:hover {
+    background-color: #757575;
+}
+
+QPushButton:pressed {
+    background-color: #9E9E9E;
+}
+
+/* Estil dels elements de la llista */
+QListWidget {
+    background-color: #424242;
+    border: 1px solid #616161;
+    color: #F5F5F5;
+    border-radius: 5px;
+}
+
+QListWidget::item {
+    padding: 10px;
+    font-size: 10pt;
+}
+
+QListWidget::item:selected {
+    background-color: #616161;
+    color: #000000;
+}
+
+/* Finestra de text */
+QTextEdit {
+    background-color: #424242;
+    border: 1px solid #616161;
+    color: #F5F5F5;
+    font-size: 10pt;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+QTextEdit:focus {
+    border: 1px solid #8C8C8C;
+}
+
+/* Combobox */
+QComboBox {
+    background-color: #424242;
+    border: 1px solid #616161;
+    color: #F5F5F5;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+QComboBox:hover {
+    background-color: #616161;
+}
+
+/* Barra d'estat */
+QStatusBar {
+    background-color: #616161;
+    color: #F5F5F5;
+    font-size: 9pt;
+    border: none;
+}
+
+/* Barra de la finestra */
+QMainWindow {
+    background-color: #2E2E2E;
+    border: none;
+}
+
+QToolBar {
+    background-color: #424242;
+    border: none;
+}
+
+QToolButton {
+    background-color: #616161;
+    color: #F5F5F5;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+QToolButton:hover {
+    background-color: #757575;
+}
+
+/* Finestra de diàleg */
+QDialog {
+    background-color: #2E2E2E;
+    color: #F5F5F5;
+}
+
+/* Estil de les finestres de connexió */
+QProgressBar {
+    background-color: #616161;
+    color: #F5F5F5;
+    border-radius: 5px;
+}
+
+QProgressBar::chunk {
+    background-color: #8C8C8C;
+}
