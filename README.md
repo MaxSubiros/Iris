@@ -6,14 +6,20 @@ Aquest projecte forma part d’un Treball de Final de Grau i té com a objectiu 
 
 ## 📂 Contingut del repositori
 
-El repositori conté tres components principals:
+El repositori conté 5 components principals:
 
-- `SysUpdate.py` – Codi que s'executa a la màquina víctima.
-- `proxy11.py` – Servidor intermediari (proxy) que connecta víctima i atacant.
-- `main.py` – Interfície gràfica per part de l’atacant (GUI).
-- `bckdr11.py` – Lògica de comunicació integrada dins la GUI.
-- Carpeta `Updates/` – Versió portàtil de Python amb llibreries incloses.
-- Altres scripts auxiliars i recursos gràfics (icones, recursos GUI, etc.).
+1. Carpeta Victima amb
+  - `Victima.py` Codi que s'executa a la màquina víctima.
+  - `SysUpdate.py` Mateix codi però ofuscat.
+2. Carpeta Servidor amb
+  -`Proxy.py` – Servidor intermediari (proxy) que connecta víctima i atacant.
+3. Carpeta Atacant amb
+  - `main.py` – Interfície gràfica per part de l’atacant (GUI).
+  - `backAtacant.py` – Lògica de comunicació integrada dins la GUI.
+  - `styles.qss` – Estils de la GUI.
+4. Carpeta `Updates/` – Versió portàtil de Python amb llibreries incloses.
+5. `Iris.exe` - Executable de l'Atacant.
+6. `LogoIris.ico` - Logo de la backdoor.
 
 ## 🚀 Execució
 
